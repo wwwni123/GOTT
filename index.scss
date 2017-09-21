@@ -1,0 +1,140 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.logo{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+    border-bottom: 0.05rem solid lightgrey;
+    div:nth-child(1){
+        width: 20%;
+    }
+    div:nth-child(2){
+        width: 10%;
+    }
+    p{
+       display: flex;
+       align-items: center;
+    }
+}
+article{
+    width: 100%;
+    height: 2.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.swipeOne{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.nav{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.6rem;
+    text-align: center;
+    img{
+        width: 80%;
+    }
+}
+.swipe{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    .swiper-slide{
+        padding-left: 1rem;
+    }
+}
+.swipeTwo{
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+    .swiper-slide{
+        height: 3rem;
+        display: flex;
+        align-items: center;
+    }
+}
+.content{
+    width: 100%;
+    h4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: palevioletred;
+        border-top: 0.8rem solid lightgrey;
+        height: 3rem;
+    }
+    .slide{
+        width: 100%;
+        height: 8rem;
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+        margin: 1rem 0;
+        >div:nth-child(1){
+            width: 30%;
+            img{
+                width: 100%;
+            }
+        }
+        .item{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+    }
+}
+.foot{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 0.6rem;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    img{
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

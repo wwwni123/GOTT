@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<link rel="stylesheet" type="text/css" href="NEW-API/swiper.min.css"/>
+		<script src="NEW-API/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="NEW-API/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="NEW-API/vue-router.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="NEW-API/axios.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="logo">
+			<div></div>
+			<p><img src="images/1_06.png" /><span>北京吉利 V</span></p>
+			<div><img src="images/1_03.png"/><br />收索</div>
+		</div>
+		<div id="box">
+			<router-view></router-view>
+			<div class="foot">
+				<router-link to="./aaa"><div><img src="images/1_68.png" alt="" /><br />首页</div></router-link>
+				<router-link to="./bbb"><div><img src="images/1_70.png" alt="" /><br />福利</div></router-link>
+				<router-link to="./ccc"><div><img src="images/1_72.png" alt="" /><br />购物车</div></router-link>
+				<router-link to="./ddd"><div><img src="images/1_75.png" alt="" /><br />我的</div></router-link>
+			</div>
+		</div>
+		
+		<template id='b'>
+			<div>
+				
+			</div>
+		</template>
+		<!--<article>
+			<div>特价</div>
+			<div>水果</div>
+			<div>蔬菜</div>
+			<div>乳品</div>
+			<div>肉蛋</div>
+			<div>零食</div>
+		</article>
+		<div class="swiper-container swipeOne">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/banner2.png" alt="" /></div>
+				<div class="swiper-slide"><img src="images/banner3.png" alt="" /></div>
+				<div class="swiper-slide"><img src="images/租租匣_09.png" alt="" /></div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<div class="nav">
+			<div>
+				<img src="images/1_14.png" alt="" />
+				<p>新人专享</p>
+			</div>
+			<div>
+				<img src="images/1_16.png" alt="" />
+				<p>邀请有礼</p>
+			</div>
+			<div>
+				<img src="images/1_18.png" alt="" />
+				<p>每日签到</p>
+			</div>
+			<div>
+				<img src="images/1_20.png" alt="" />
+				<p>会员任务</p>
+			</div>
+		</div>
+		<div class="swipe">
+			<div style="border-right: 0.05rem solid lightgrey;padding-left: 1rem;display: flex;align-items: center;height: 2rem;padding-right: 0.2rem;"><img src="images/1_38.png"/></div>
+			<div class="swiper-container swipeTwo">
+				<div class="swiper-wrapper two">
+					<div class="swiper-slide">超级组合1</div>
+					<div class="swiper-slide">超级组合2</div>
+					<div class="swiper-slide">超级组合3</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<h4>
+				<img src="images/1_27.png"/><span>每日特价</span><img src="images/1_27.png"/>
+			</h4>
+			<div class="slide">
+				<div><img src="images/1_35.png" alt="" /></div>
+				<div class="item">
+					<h3>卫龙</h3>
+					<p>你只谁</p>
+					<img src="images/1_38.png" alt="" />
+					<h6>可用卷</h6>
+					<h5>冰爽</h5>
+				</div>
+			</div>
+			<div class="slide">
+				<div><img src="images/1_35.png" alt="" /></div>
+				<div class="item">
+					<h3>卫龙</h3>
+					<p>你只谁</p>
+					<img src="images/1_38.png" alt="" />
+					<h6>可用卷</h6>
+					<h5>冰爽</h5>
+				</div>
+			</div>
+		</div>
+		<div style="height: 2rem;"></div>
+		<div class="foot">
+			<div><img src="images/1_68.png" alt="" /><br />首页</div>
+			<div><img src="images/1_70.png" alt="" /><br />福利</div>
+			<div><img src="images/1_72.png" alt="" /><br />购物车</div>
+			<div><img src="images/1_75.png" alt="" /><br />我的</div>
+		</div>-->
+	</body>
+	<script type="text/javascript">
+			document.documentElement.style.fontSize=innerWidth/16+"px";
+			console.log("1rem="+innerWidth/16)
+			onresize=function(){
+				document.documentElement.style.fontSize=innerWidth/16+"px";
+			}
+	</script>
+	<script src="index.js" type="text/javascript" charset="utf-8"></script>
+</html>
